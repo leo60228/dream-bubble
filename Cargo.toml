@@ -1,0 +1,15 @@
+[package]
+name = "dream-bubble"
+version = "0.1.0"
+authors = ["leo60228 <leo@60228.dev>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.40"
+chrono = { version = "0.4.19", features = ["serde"] }
+reqwest = { version = "0.11.2", features = ["json"] }
+rocket = { git = "https://github.com/SergioBenitez/Rocket.git" }
+serde = { version = "1.0.125", features = ["derive"] }
+url = "2.2.1"
